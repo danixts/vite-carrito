@@ -1,5 +1,8 @@
 <template>
-  <transition-group name="animate">
+  <transition-group
+    name="animate"
+    :duration="{ enter: 800, leave: 500 }"
+  >
     <div
       v-for="p in cart"
       :key="p.id"
@@ -55,7 +58,6 @@
 
 <script lang="ts" setup>
 import { inject, onUpdated } from "vue";
-
 defineProps({
   cart: {
     type: Object,
@@ -86,6 +88,7 @@ const decrementValue = (id: number) => {
 };
 
 onUpdated(() => {
+  console.log(cart.value);
   localStorage.setItem("cart", JSON.stringify(cart.value));
 });
 </script>

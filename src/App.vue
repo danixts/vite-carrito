@@ -52,7 +52,7 @@
         </div>
         <!-- PRODUCTOS -->
         <div class="overflow-y-auto h-full">
-          <AddProduct :cart="cart" />
+          <AddProduct :cart="Object.values(cart)" />
         </div>
         <!-- MONTO Y CANTIDAD -->
         <ProductTotal />
@@ -72,7 +72,9 @@ interface Product {
   url: string;
 }
 
-const products = ref<Array<Product>>(data.products);
+const products = ref<Array<Product>>(
+  data.products.sort((a, b) => 0.5 - Math.random())
+);
 
 const cart = ref({}) as any;
 
