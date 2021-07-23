@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: colors.amber,
+        primary: colors.green,
         secondary: colors.emerald
       },
       gridTemplateRows: {

@@ -1,12 +1,12 @@
 <template>
   <div class="container">
-    <h1 class=" text-primary-500 font-semibold tracking-wider text-3xl text-center mt-4 py-8">
+    <h1 class="text-primary-500 font-semibold tracking-wider text-3xl text-center mt-4 py-8">
       Carrito de compras en JavaScript
     </h1>
     <!-- BOX -->
-    <div class="flex flex-row -mx-4">
+    <div class="flex flex-col md:flex-row -mx-4">
       <!-- CARDS -->
-      <div class="grid lg:grid-cols-2 xl:grid-cols-3 gap-6 w-full lg:w-6/12 xl:w-8/12">
+      <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 w-full lg:w-6/12 xl:w-8/12 mx-0 md:mx-2">
         <!-- PINTAR CARDS -->
         <ProductCard
           :data="product"
@@ -16,7 +16,7 @@
         />
       </div>
       <!-- SIDEBAR -->
-      <div class="w-full lg:w-6/12 xl:w-4/12 bg-primary-600 shadow-lg rounded-md sticky top-4 h-[70vh] ml-4 grid grid-rows-3-fix overflow-hidden">
+      <div class="overflow-hidden grid grid-rows-3-fix w-full lg:w-6/12 xl:w-4/12 bg-primary-600 shadow-lg rounded-md mx-0 md:mx-2 right-0 sticky top-4 mt-4 md:mt-0 h-[70vh]">
         <!-- DESCRIPCION -->
         <div>
           <div class="flex flex-row justify-between px-4 py-3">
