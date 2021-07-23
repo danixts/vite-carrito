@@ -1,0 +1,70 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Ciruelo",
+            "price": 20,
+            "url": "ciruelo.png"
+        },
+        {
+            "id": 2,
+            "name": "Coco",
+            "price": 10,
+            "url": "coco.png"
+        },
+        {
+            "id": 3,
+            "name": "Frutilla",
+            "price": 10,
+            "url": "frutilla.png"
+        },
+        {
+            "id": 4,
+            "name": "Kiwi",
+            "price": 2,
+            "url": "kiwi.png"
+        },
+        {
+            "id": 5,
+            "name": "Limon",
+            "price": 6,
+            "url": "limon.png"
+        },
+        {
+            "id": 6,
+            "name": "Mango",
+            "price": 8,
+            "url": "mango.png"
+        },
+        {
+            "id": 7,
+            "name": "Melon",
+            "price": 2,
+            "url": "melon.png"
+        },
+        {
+            "id": 8,
+            "name": "Piña",
+            "price": 67,
+            "url": "pina.png"
+        },
+        {
+            "id": 9,
+            "name": "Platano",
+            "price": 90,
+            "url": "platano.png"
+        },
+        {
+            "id": 10,
+            "name": "Sandia",
+            "price": 56,
+            "url": "sandia.png"
+        },
+        {
+            "id": 11,
+            "name": "Uva",
+            "price": 3,
+            "url": "uva.png"
+        }
+    ]
+}
